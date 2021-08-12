@@ -10,13 +10,11 @@
     "type": "git",
     "url": "git+https://github.com/jackkweyunga/nidajs.git"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@jackkweyunga"
-  },
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/jackkweyunga/nidajs/issues"
   },
-  "homepage": "https://github.com/jackkweyunga/nidajs#readme"
+  "homepage": "https://github.com/jackkweyunga/nidajs#readme",
+  "dependencies": {}
 }
