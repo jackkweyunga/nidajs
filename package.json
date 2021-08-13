@@ -12,7 +12,10 @@
     "type": "git",
     "url": "https://github.com/jackkweyunga/nidajs.git"
   },
-  "author": "",
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "jackkweyunga",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/jackkweyunga/nidajs/issues"
