@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "commit":"git cz",
+    "commit": "git cz",
     "semantic-release": "semantic-release --branches main"
   },
   "repository": {
