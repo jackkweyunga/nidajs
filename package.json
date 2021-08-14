@@ -1,8 +1,8 @@
 {
   "name": "@jackkweyunga/nidajs",
   "version": "0.0.0-development",
-  "description": "",
-  "main": "index.js",
+  "description": "A node module to fetch details for a given NIN (tz)",
+  "main": "index.mjs",
   "scripts": {
     "test": "jest",
     "commit": "git add . && git cz",
@@ -15,8 +15,9 @@
   "publishConfig": {
     "access": "public"
   },
-  "author": "jackkweyunga",
-  "license": "ISC",
+  "keywords": ["nidajs", "nida npm", "nida node", "Nida Tanzania", "nida", "Nida", "jackkweyunga", "Jack Kweyunga"],
+  "author": "Jack Kweyunga @jackkweyunga",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/jackkweyunga/nidajs/issues"
   },
