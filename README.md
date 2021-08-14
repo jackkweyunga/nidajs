@@ -1,9 +1,12 @@
 # nidajs
 
 A simple nodejs package to fetch details of a given NIN provided.
+- Bundled with tests and features that ensure a successful fetch.
 @unofficial
 
+
 > `[npm]` https://www.npmjs.com/package/@jackkweyunga/nidajs
+
 
 # Installation
 
@@ -30,7 +33,7 @@ nida.loadDetails("xxxxxxxxxxxxxxxxxxx").then(details => {
 
 ```
 
->> Therefore its usage extends all node frameworks.
+>> Therefore its usage extends to most all node frameworks.
 
 # Contributing
 
