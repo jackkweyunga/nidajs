@@ -35,18 +35,6 @@ class Nidajs {
 
 }
 
-id = "20000916161100000113"
-
-cn = 9910828894360
-
-// console.log(id.length);
-
-nida = new Nidajs();
-
-nida.loadDetails(id).then(d => {
-    console.log(d);
-})
-
 module.exports = Nidajs
 
 
