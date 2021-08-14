@@ -35,7 +35,7 @@ class Nidajs {
 
 }
 
-module.exports = Nidajs
+module.exports = { Nidajs }
 
 
 
