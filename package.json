@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "commit": "git cz",
+    "commit": "git add . && git cz",
     "semantic-release": "semantic-release --branches main"
   },
   "repository": {
@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/jackkweyunga/nidajs#readme",
   "dependencies": {
+    "axios": "^0.21.1",
     "semantic-release-cli": "^5.4.3"
   },
   "devDependencies": {
