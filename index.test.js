@@ -1,10 +1,10 @@
 
 
-const Nidajs = require("./index");
+const { Nidajs } = require("./index.mjs");
 
 const sample_id = "20000207331010000126";
 
-const nidajs = new Nidajs()
+nidajs = new Nidajs()
 
 const ntimes = Array.from(Array(5).keys())
 
