@@ -1,6 +1,6 @@
 
 
-const { Nidajs } = require("./index.js");
+const { Nidajs } = require("../src/index.js")
 
 const sample_id = "20000207331010000126";
 
