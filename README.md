@@ -33,7 +33,7 @@ nida.loadDetails("xxxxxxxxxxxxxxxxxxx").then(details => {
 
 ```
 
->> Therefore its usage extends to most all node frameworks.
+> Therefore its usage extends to most all node frameworks.
 
 # Contributing
 
