@@ -43,6 +43,9 @@ nida.loadDetails("xxxxxxxxxxxxxxxxxxx").then(details => {
 - #### Open an issue in case of misbehabiours 👎 or suggesting a new feature.
 - #### ...
 
+# credits 
+I learnt some important things from [Kalebu](https://github.com/Kalebu/Nida)
+
 # Licence
 
 MIT
