@@ -3,3 +3,6 @@ export class Nidajs {
     loadDetails(id: any, retries?: number, backoff?: number): Promise<any>;
     filterData(data: any): any;
 }
+
+
+declare module '@jackkweyunga/nidajs';
