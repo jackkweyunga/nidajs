@@ -9,6 +9,7 @@
     "commit": "git add . && git cz",
     "semantic-release": "semantic-release --branches main"
   },
+  "types": "main.js”",
   "repository": {
     "type": "git",
     "url": "https://github.com/jackkweyunga/nidajs.git"
