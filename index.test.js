@@ -1,6 +1,6 @@
 
 
-const { Nidajs } = require("./index.mjs");
+const { Nidajs } = require("./index.js");
 
 const sample_id = "20000207331010000126";
 
@@ -19,4 +19,3 @@ test.each(ntimes)('should return a dictionary with user details', async (n) => {
 
     expect(data).toBeDefined();
 }, 30000)
-
