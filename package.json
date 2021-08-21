@@ -7,7 +7,7 @@
   "scripts": {
     "test": "jest",
     "commit": "git add . && git cz",
-    "semantic-release": "semantic-release",
+    "semantic-release": "semantic-release --branches main",
     "build": "npm run build:web && npm run build:node",
     "build:web": "webpack --config webpack.config.js",
     "build:node": "cd node && webpack --config webpack-node.config.js"
