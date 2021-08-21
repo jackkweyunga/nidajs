@@ -1,10 +1,7 @@
 name: nidjs Package
 
 on:
-  push:
-    branches: main
-  pull_request:
-    branches: "*"
+  release:
     
 jobs:
   build:
@@ -30,14 +27,15 @@ jobs:
         with:
           node-version: 14
       - name: Publish package
+        
+        run: | 
+          npm ci
+          echo //registry.npmjs.org/:_authToken=${NPM_TOKEN} > x.sh  
+          npm run publish:web 
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: | 
-          npm ci
-          npm run build:web
-          npx semantic-release 
-
+          
   publish-node:
     needs: build
     runs-on: ubuntu-latest
@@ -50,13 +48,12 @@ jobs:
         with:
           node-version: 14
       - name: Publish package
+        run: |
+          npm ci
+          echo //registry.npmjs.org/:_authToken=${NPM_TOKEN} > x.sh  
+          npm run publish:node
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: | 
-          npm run build:node
-          cd ./node
-          npx semantic-release 
-        
 
       

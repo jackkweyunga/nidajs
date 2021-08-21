@@ -10,7 +10,10 @@
     "semantic-release": "semantic-release --branches main",
     "build": "npm run build:web && npm run build:node",
     "build:web": "webpack --config webpack.config.js",
-    "build:node": "cd node && webpack --config webpack-node.config.js"
+    "build:node": "cd node && webpack --config webpack-node.config.js",
+    "publish:Web":"npm run build:web && npm publish",
+    "publish:node":"npm run build:node && npm publish ./node",
+    "publish":"npm run publish:web && npm run publish:node"
   },
   "repository": {
     "type": "git",
