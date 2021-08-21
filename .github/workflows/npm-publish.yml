@@ -1,4 +1,4 @@
-name: nidajs Package
+name: nidjs Package
 
 on:
   push:
