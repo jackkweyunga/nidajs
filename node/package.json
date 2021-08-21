@@ -1,43 +1,40 @@
 {
-    "name": "nidnode",
-    "version": "0.0.0-development",
-    "description": "A node module to fetch details for a given NIN (tz)",
-    "main": "./dist/nid.js",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
-    },
-  
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/jackkweyunga/nidajs.git"
-    },
-    "publishConfig": {
-      "access": "public"
-    },
-    "keywords": [
-      "nidnode",
-      "nida npm",
-      "nida node",
-      "Nida Tanzania",
-      "nida",
-      "Nida",
-      "jackkweyunga",
-      "Jack Kweyunga"
-    ],
-    "author": "Jack Kweyunga @jackkweyunga",
-    "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/jackkweyunga/nidajs/issues"
-    },
-    "homepage": "https://github.com/jackkweyunga/nidajs#readme",
-    "dependencies": {
-      "axios": "^0.21.1",
-      "semantic-release-cli": "^5.4.3"
-    },
-    "devDependencies": {
-      "semantic-release": "^17.4.5"
-    }
-
+  "name": "nidnode",
+  "version": "0.0.0-development",
+  "description": "A node module to fetch details for a given NIN (tz)",
+  "main": "./dist/nid.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jackkweyunga/nidajs.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "nidnode",
+    "nida npm",
+    "nida node",
+    "Nida Tanzania",
+    "nida",
+    "Nida",
+    "jackkweyunga",
+    "Jack Kweyunga"
+  ],
+  "author": "Jack Kweyunga @jackkweyunga",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jackkweyunga/nidajs/issues"
+  },
+  "homepage": "https://github.com/jackkweyunga/nidajs#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "semantic-release-cli": "^5.4.3"
+  },
+  "devDependencies": {
+    "semantic-release": "^17.4.5"
   }
-  
-  
+}
