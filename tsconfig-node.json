@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+      "outDir": "./node/dist",
+      "noImplicitAny": true,
+      "module": "CommonJS",
+      "target": "es2015",
+      "lib": [
+        "es2017",
+        "es7",
+        "es6",
+        "dom"
+      ],
+      "jsx": "react",
+      "allowJs": false,
+      "declaration": true,
+      "strict": true,
+      "esModuleInterop": true
+    },
+    "exclude": [
+      "node_modules",
+      "node",
+      "dist",
+    ]
+  }

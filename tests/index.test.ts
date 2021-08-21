@@ -1,6 +1,11 @@
 
 
-const { Nid } = require("../node/dist/nid.js");
+/**
+ * @jest-environment jsdom
+ */
+
+
+const { Nid } = require("../dist/nid.js");
 
 const sample_id = "20000207331010000126";
 
@@ -15,7 +20,7 @@ test.each(ntimes)('should return a dictionary with user details', async (n) => {
     console.log(`Test number ${n}`);
     let data;
     
-    await nidajs.loadDetails(sample_id).then( resp => {
+    await nidajs.loadDetails(sample_id).then( (resp: any) => {
         data = resp;
     })
 

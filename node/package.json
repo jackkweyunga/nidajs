@@ -1,0 +1,13 @@
+{
+    "name": "nidnode",
+    "version": "0.0.0-development",
+    "description": "A node module to fetch details for a given NIN (tz)",
+    "main": "./bin/nid.js",
+    "types": "./dist/nid.d.ts",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC"
+  }
+  
