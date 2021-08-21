@@ -4,9 +4,7 @@ A simple nodejs package to fetch details of a given NIN provided.
 - Bundled with tests and features that ensure a successful fetch.
 @unofficial
 
-
-> `[npm]` https://www.npmjs.com/package/@jackkweyunga/nidajs
-
+### ...
 
 # Installation
 
