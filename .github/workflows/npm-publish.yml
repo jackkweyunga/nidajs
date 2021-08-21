@@ -5,9 +5,7 @@ on:
     branches: [ main, dev ]
   pull_request:
     branches: "*"
-  release:
-    - create
-
+    
 jobs:
   build:
     runs-on: ubuntu-latest
