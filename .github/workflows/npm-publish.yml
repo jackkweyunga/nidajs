@@ -29,6 +29,7 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: 14
+      - name: Publish package
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -46,9 +47,9 @@ jobs:
         uses: actions/checkout@v2
       - name: setup node
         uses: actions/setup-node@v2
-
         with:
           node-version: 14
+      - name: Publish package
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
