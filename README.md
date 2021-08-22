@@ -1,37 +1,59 @@
-# nidajs
+# nidjs
 
 A simple nodejs package to fetch details of a given NIN provided.
 - Bundled with tests and features that ensure a successful fetch.
 @unofficial
 
 ### ...
+  
+# Usage
+
+#### Web
 
 # Installation
 
  ```cmd
-  npm i @jackkweyunga/nidajs
-  ```
-  
-# Usage
-
-- ### nodejs
+  npm i nidjs
+ ```
+ 
+ ```typescript
+ 
+ import { Nidjs } from "nidjs";
+ 
+ const nida = new Nidjs()
+ 
+ nida.loadDetails(xxxxxxxxxxxxxxxxxxx).then( data => {
+   console.log(data);
+ })
+ ```
 
 replace the string "xxxxxxxxxxxxxxxxxxx" with a NIN.
 
+# Usage
+
+#### node
+
+# Installation
+
+ ```cmd
+  npm i nidnode
+ ```
+
 ```javascript
 
-const { Nidajs } = require('@jackkweyunga/nidajs')
+const { Nid } = require("nidnode");
 
-nida = new Nidajs();
+const sample_id = "xxxxxxxxxxxxxxxxxxx";
 
-nida.loadDetails("xxxxxxxxxxxxxxxxxxx").then(details => {
+const nid = new Nid();
+
+nid.loadDetails(sample_id).then(details => {
     console.log(details); // an object of nin details
 }).catch(err => console.log(err))
 
 
 ```
 
-> Therefore its usage extends to most all node frameworks.
 
 # Contributing
 
