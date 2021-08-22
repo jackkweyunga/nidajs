@@ -29,7 +29,7 @@ jobs:
         
         run: | 
           npm ci
-          echo //registry.npmjs.org/:_authToken=${NPM_TOKEN} > .npmrc.sh  
+          echo //registry.npmjs.org/:_authToken=${NPM_TOKEN} > .npmrc
           npm run publish:web 
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
@@ -48,7 +48,7 @@ jobs:
       - name: Publish package
         run: |
           npm ci
-          echo //registry.npmjs.org/:_authToken=${NPM_TOKEN} > .npmrc.sh  
+          echo //registry.npmjs.org/:_authToken=${NPM_TOKEN} > .npmrc
           npm run publish:node
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
