@@ -13,7 +13,7 @@ A simple nodejs package to fetch details of a given NIN provided.
 # Installation
 
  ```cmd
-  npm i nidjs
+  npm i nidjs --save
  ```
  
  ```typescript
@@ -36,7 +36,7 @@ replace the string "xxxxxxxxxxxxxxxxxxx" with a NIN.
 # Installation
 
  ```cmd
-  npm i nidnode
+  npm i nidnode --save
  ```
 
 ```javascript
