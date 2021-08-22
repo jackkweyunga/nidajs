@@ -13,7 +13,8 @@
     "build:node": "npx gulp updateNode && cd node && webpack --config webpack-node.config.js",
     "publish:web": "npx gulp updateNode && npm run build:web && npm publish",
     "publish:node": "npx gulp updateNode && npm run build:node && npm publish ./node",
-    "publish": "npm run publish:web && npm run publish:node"
+    "publish": "npm run publish:web && npm run publish:node",
+    "tag":"sh tag.sh"
   },
   "repository": {
     "type": "git",
@@ -48,6 +49,7 @@
     "@types/jest": "^27.0.1",
     "babel-loader": "^8.2.2",
     "cz-conventional-changelog": "^3.3.0",
+    "gulp": "^4.0.2",
     "jest": "^27.0.6",
     "semantic-release": "^17.4.5",
     "ts-jest": "^27.0.5",
