@@ -1,6 +1,6 @@
 {
   "name": "nidjs",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A node module to fetch details for a given NIN (tz)",
   "main": "./dist/nid.js",
   "types": "./dist/nid.d.ts",
@@ -11,9 +11,9 @@
     "build": "npm run build:web && npm run build:node",
     "build:web": "webpack --config webpack.config.js",
     "build:node": "cd node && webpack --config webpack-node.config.js",
-    "publish:web":"npm run build:web && npm publish",
-    "publish:node":"npm run build:node && npm publish ./node",
-    "publish":"npm run publish:web && npm run publish:node"
+    "publish:web": "npm run build:web && npm publish",
+    "publish:node": "npm run build:node && npm publish ./node",
+    "publish": "npm run publish:web && npm run publish:node"
   },
   "repository": {
     "type": "git",
