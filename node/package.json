@@ -1,6 +1,6 @@
 {
   "name": "nidnode",
-  "version": "0.0.0-development",
+  "version": "1.0.1",
   "description": "A node module to fetch details for a given NIN (tz)",
   "main": "./dist/nid.js",
   "scripts": {
