@@ -1,6 +1,6 @@
 {
   "name": "nidjs",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A node module to fetch details for a given NIN (tz)",
   "main": "./dist/nid.js",
   "types": "./dist/nid.d.ts",
@@ -14,7 +14,7 @@
     "publish:web": "npx gulp updateNode && npm run build:web && npm publish",
     "publish:node": "npx gulp updateNode && npm run build:node && npm publish ./node",
     "publish": "npm run publish:web && npm run publish:node",
-    "tag":"sh tag.sh"
+    "tag": "sh tag.sh"
   },
   "repository": {
     "type": "git",
